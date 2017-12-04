@@ -1,0 +1,138 @@
+body{
+	background-color: #eceff1;
+	font-family: Verdana;
+}
+.navbar-brand{
+	color: white !important;
+	font-family: Verdana;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: white ;
+	font-family: Verdana;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	background-color: #7B7B7B;
+	color: white;
+}
+#cadastroEmail{
+	width: 40%;
+
+	background-color: #555555; 
+	box-shadow: 3px 3px #9A9A9A;
+	border: 2px solid #555555;
+	border-radius: 10px;
+	margin-top: 10%;
+	color: #555;
+}
+label{
+	color: white;
+}
+#titulo{
+	color: white;
+	font-family: Verdana;
+    font-size: 20px;
+}
+hr{
+	width: 70%;
+	background-color: white;
+}
+table{
+	box-shadow: 3px 3px #9a9a9a;
+}
+.responstable {
+  margin: 1em 0;
+  width: 70%;
+  overflow: hidden;
+  background: #FFF;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black
+}
+.responstable tr {
+  border: 1px solid black;
+}
+.primeiro {
+    background-color: #555555 !important;
+  color: white;
+
+}
+.responstable tr:nth-child(odd) {
+  background-color: #e4e4e4;
+  color: black;
+
+
+}
+.responstable th {
+  display: none;
+  border: 1px solid #FFF;
+  background-color: black;
+  color: #FFF;
+  padding: 1em;
+}
+.responstable th:first-child {
+  display: table-cell;
+  text-align: center;
+
+
+}
+.responstable th:nth-child(2) {
+  display: table-cell;
+
+}
+.responstable th:nth-child(2) span {
+  display: none;
+}
+.responstable th:nth-child(2):after {
+  content: attr(data-th);
+}
+@media (min-width: 480px) {
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+  .responstable th:nth-child(2):after {
+    display: none;
+  }
+}
+.responstable td {
+  display: block;
+  word-wrap: break-word;
+  max-width: 7em;
+}
+.responstable td:first-child {
+  display: table-cell;
+  text-align: center;
+  border-right: 1px solid #dcdcdc;
+  width:1px;
+}
+@media (min-width: 480px) {
+  .responstable td {
+    border: 1px solid  #dcdcdc;
+  }
+}
+.responstable th, .responstable td {
+  text-align: left;
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .responstable th, .responstable td {
+    display: table-cell;
+    padding: 1em;
+  }
+}
+#labelFiltro{
+	color: #555555;
+	font-family: Verdana;
+	font-size: 20px;
+}
+#delimita{
+	width: 35%;
+}
+#formatoDataHora{
+	color: #999999;
+}
+#modalExclui{
+	margin-top: 18%;
+	width: 30%;
+	margin-left: 35%;
+
+}
